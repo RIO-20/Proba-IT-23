@@ -13,7 +13,7 @@ function MyNavbar() {
           src={logo}
           width='93.54'
           height='42.07'
-          style={{position: 'absolute', top:0,left:10}}
+          style={{position: 'absolute', top:2 ,left:10}}
           alt='poll it'/>
 
         </Navbar.Brand>
