@@ -2,12 +2,21 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from 'C:/Users/rauli/OneDrive/Documents/GitHub/Proba-IT-23/my-app/src/components/logo.png';
 
 function MyNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img
+          src={logo}
+          width='93.54'
+          height='42.07'
+          style={{position: 'absolute', top:0,left:10}}
+          alt='poll it'/>
+
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
